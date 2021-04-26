@@ -1,3 +1,5 @@
+[dataset]: https://www.kaggle.com/c/titanic/data
+
 # CSE 627 Group Project
 
 ## Prerequisites
@@ -11,6 +13,10 @@ nbdime config-git --enable
 ```
 
 ## Usage
+
+Download [dataset].
+
+Start Jupyter server:
 
 ```bash
 make
