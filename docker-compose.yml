@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   jupyter:
-    image: jupyter/all-spark-notebook
+    build: .
     command: start-notebook.sh --port 8850
     restart: 'no'
     environment:

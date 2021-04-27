@@ -20,7 +20,7 @@ Start Jupyter server:
 
 ```bash
 make
-docker-compose up
+docker-compose up --build
 ```
 
 Then open [`localhost:8850`](http://localhost:8850)
