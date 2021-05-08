@@ -1,4 +1,6 @@
 *.csv
+*.py
+._*.py
 joblib
 
 #### Python ####
