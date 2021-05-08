@@ -5,6 +5,8 @@ services:
     build: .
     command: start-notebook.sh --port 8850
     restart: 'no'
+    cap_add:
+      - SYS_RESOURCE
     environment:
       TZ: '${TZ}'
       JUPYTER_ENABLE_LAB: 'yes'
