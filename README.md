@@ -8,6 +8,7 @@
 pip3 install --upgrade nbdime nbstripout
 
 cd miami-university-cse-627-group-project/
+git lfs install
 nbstripout --install
 nbdime config-git --enable
 ```
