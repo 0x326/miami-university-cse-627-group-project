@@ -19,3 +19,18 @@ services:
     working_dir: /home/jovyan/work
     volumes:
       - ./:/home/jovyan/work
+
+  rstudio:
+    image: rocker/rstudio:4.0.4
+    restart: 'no'
+    env_file:
+      - ./secrets/rstudio_password.env
+    environment:
+      USERID: '${UID}'
+      GROUPID: '${GID}'
+    expose:
+      - '8787'
+    ports:
+      - '127.0.0.1:8787:8787'
+    volumes:
+      - ./:/home/rstudio/repo

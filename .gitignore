@@ -2,6 +2,7 @@
 *.py
 ._*.py
 joblib
+/secrets
 
 #### Python ####
 # Byte-compiled / optimized / DLL files
