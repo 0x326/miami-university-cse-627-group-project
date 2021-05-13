@@ -21,7 +21,7 @@ services:
       - ./:/home/jovyan/work
 
   rstudio:
-    image: rocker/rstudio:4.0.4
+    image: rocker/tidyverse:4.0.4
     restart: 'no'
     env_file:
       - ./secrets/rstudio_password.env
