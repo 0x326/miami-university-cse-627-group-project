@@ -5,6 +5,7 @@
 ## Prerequisites
 
 ```bash
+sudo apt update && sudo apt install docker docker-compose git-lfs
 pip3 install --upgrade nbdime nbstripout
 
 cd miami-university-cse-627-group-project/
